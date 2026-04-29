@@ -86,6 +86,15 @@ nav {
     color: var(--text-muted);
 }
 
+/* Controle de dimensão do Brasão na seção Hero */
+.hero-logo {
+    max-width: 100%;
+    width: 350px; /* Define um tamanho máximo elegante para desktop */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
 .btn {
     display: inline-block;
     background-color: var(--primary-violet);
